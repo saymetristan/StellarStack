@@ -1,11 +1,11 @@
 <script>
-  let appName = "Un Segundo";
+  let appName = "Boilerplate";
 </script>
 
 <div class="flex flex-col items-center justify-center min-h-screen p-4">
   <h1 class="text-4xl font-bold text-primary mb-4">Bienvenido a {appName}</h1>
   <p class="text-lg text-muted-foreground">
-    Tu espacio personal para journaling y meditación
+    Este es un boilerplate para el desarrollo de aplicaciones web con Astro, Svelte, Tailwind CSS y Shadcn.
   </p>
 </div>
 

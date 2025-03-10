@@ -18,7 +18,7 @@ async function handleRequest(req: Request): Promise<Response> {
   const url = new URL(req.url);
   
   if (url.pathname === "/" && req.method === "GET") {
-    return new Response('12o API is running!', {
+    return new Response('Boilerplate API is running!', {
       status: 200,
       headers: { 'Content-Type': 'application/json' },
     });
